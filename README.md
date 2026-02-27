@@ -7,7 +7,7 @@ This is 2D game developed in android studio !
 <div class="container d-flex justify-content-center">
 
   <div class="float-child">
-    <img src="https://github.com/dennish-8055/ludo_game/blob/master/app/src/main/res/drawable/ludostart.jpg" width="400" height="790">
+    <img src="https://github.com/dennish-8055/ludo_game-master/blob/main/app/src/main/res/drawable/ludostart.jpg" width="400" height="790">
   </div>
   
   <div class="float-child">
