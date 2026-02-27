@@ -12,7 +12,7 @@ This is 2D game developed in android studio !
   
   <div class="float-child">
     <div class="blue">
-      <img src="https://github.com/dennish-8055/ludo_game/blob/master/app/src/main/res/drawable/ludoactivity.jpg"  width="400" height="790">
+      <img src="https://github.com/dennish-8055/ludo_game-master/blob/main/app/src/main/res/drawable/ludoactivity.jpg"  width="400" height="790">
     </div>
   </div>
   
