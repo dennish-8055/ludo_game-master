@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Launcher activity MUST be exported -->
+        <activity
+            android:name="com.tdevelopments.ludo_game.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- No intent filter → must declare exported=false (implicit default not allowed on newer AGP) -->
+        <activity
+            android:name="com.tdevelopments.ludo_game.LudoActivity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

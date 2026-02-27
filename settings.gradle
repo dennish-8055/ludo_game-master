@@ -1,0 +1,18 @@
+// Enable the Foojay resolver so Gradle can download Java toolchains automatically
+plugins {
+    id "org.gradle.toolchains.foojay-resolver" version "0.4.0"
+}
+
+toolchainManagement {
+    jvm {
+        // register the foojay resolver repository
+        javaRepositories {
+            repository("foojay") {
+                resolverClass = org.gradle.toolchains.foojay.FoojayToolchainResolver
+            }
+        }
+    }
+}
+rootProject.name = "ludo_game"
+include ':app'
+
